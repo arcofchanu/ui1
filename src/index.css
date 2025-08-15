@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
-
 @layer utilities {
   .animate-zoom-in {
     animation: zoomIn 1.5s ease-in-out forwards;
