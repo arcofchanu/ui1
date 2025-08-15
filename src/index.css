@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* The duplicate @import for the 'Metamorphous' font has been removed 
+   because it is already correctly linked in index.html */
+
 @layer utilities {
   .animate-zoom-in {
     animation: zoomIn 1.5s ease-in-out forwards;
